@@ -9,18 +9,17 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
-            color: #333333;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333;
         }
         header {
             text-align: center;
             padding: 50px;
-            background-color: #f4f4f4;
-            position: relative;
+            background-color: #3498db; /* Blue header */
+            color: white;
         }
         header h1 {
             font-size: 2.5em;
-            color: #ff5722;
             margin-bottom: 10px;
         }
         header p {
@@ -28,29 +27,8 @@
             margin-bottom: 30px;
         }
         header a {
-            color: #ff5722;
+            color: white;
             text-decoration: none;
-        }
-        .visual-top {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
-        }
-        .visual-top div {
-            width: 80px;
-            height: 80px;
-            margin: 0 10px;
-            background-color: #ff5722;
-        }
-        .visual-top .green {
-            background-color: #4caf50;
-        }
-        .visual-top .blue {
-            background-color: #2196f3;
-        }
-        .visual-top .orange {
-            background-color: #ff9800;
         }
         .container {
             display: flex;
@@ -71,8 +49,9 @@
         }
         .sidebar {
             width: 35%;
-            background-color: #f4f4f4;
+            background-color: #fff; /* White sidebar */
             padding: 30px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
         }
         .sidebar h2 {
             font-size: 1.5em;
@@ -93,24 +72,6 @@
             background-color: #333;
             color: #fff;
         }
-        .visual-bottom {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 50px;
-        }
-        .visual-bottom div {
-            width: 100px;
-            height: 100px;
-            margin: 0 10px;
-            background-color: #ff5722;
-        }
-        .visual-bottom .green {
-            background-color: #4caf50;
-        }
-        .visual-bottom .blue {
-            background-color: #2196f3;
-        }
     </style>
 </head>
 <body>
@@ -118,12 +79,6 @@
 <header>
     <h1>Kevin Christopher Ruban</h1>
     <p>kevinruban57@gmail.com | <a href="https://linkedin.com/in/kevin-christopher-ruban" target="_blank">linkedin.com/in/kevin-christopher-ruban</a></p>
-
-    <div class="visual-top">
-        <div class="blue"></div>
-        <div class="white"></div>
-        <div class="red"></div>
-    </div>
 </header>
 
 <div class="container">
@@ -162,12 +117,6 @@
             <li>Python for Data Science - NPTEL</li>
         </ul>
     </div>
-</div>
-
-<div class="visual-bottom">
-    <div class="green"></div>
-    <div class="blue"></div>
-    <div></div>
 </div>
 
 <footer>
